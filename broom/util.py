@@ -14,7 +14,7 @@ __email__ = "jose.clemente@gmail.com"
 ##############################
 
 def command_handler(commands, logger, close_logger, print_commands=False):
-    """ Partially adapted from QIIME
+    """ Partially adapted from QIIME.
     """
     if print_commands:
         print commands
